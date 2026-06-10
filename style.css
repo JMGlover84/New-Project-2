@@ -224,9 +224,27 @@ FEATURES
 */
 
 #features {
-    height: 1000px;
+    padding-top: 8vw;
     background-color: rgba(115, 66, 214, 0.1);
 }
-.book__img {
-    
+
+.books {
+    display: flex;
 }
+
+.book {
+    width: 25%;
+    padding: 24px;
+}
+
+.book__img {
+    max-height: 380px;
+}
+
+.book___img--wrapper {
+   margin-bottom: 8px;
+   border-radius: 4px;
+   overflow: hidden;
+}
+
+.book:hover .book_img {}
