@@ -31,13 +31,13 @@
                 </button>
                 <ul class="menu__links">
                 <li class="menu__list">
-                <a href="#" class="menu__link">Home</a>
+                <a href="#" class="menu__link" onclick="openMenu()">Home</a>
             </li>
             <li class="menu__list">
-                <a href="#features" class="menu__link">Books</a>
+                <a href="#features" class="menu__link" onclick="openMenu()">Books</a>
             </li>
             <li class="menu__list">
-                <a class="menu__link no_cursor">Contact</a>
+                <a class="menu__link no_cursor" onclick="openMenu()">Contact</a>
             </li>
             </ul>
             </div>
@@ -48,9 +48,10 @@
                 <div class="header__description">
                     <h1>United States most awarded online library platform</h1>
                     <h2>Find your dream book with <span class="purple">Library</span></h2>
-                    <button class="btn">Browse Books</button>
+                    <a href="#features">
+                     <button class="btn">Browse Books</button>
+                     </a>
                 </div>
-
                 <figure class="header__image--wrapper">
                     <img src="./assets/Undraw_books.svg" alt="Books Illustration">
                 </figure>
